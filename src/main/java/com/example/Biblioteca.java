@@ -15,15 +15,13 @@ public class Biblioteca {
             return false;
         }
         
-        int count = 0;
-        
         for (Livro livroTemp : this.livros){
             if(matchtTitulosLivros(livroTemp, livro.getTitulo())){return false;}
-            count++;
         }
         
         this.livros.add(livro);
-        return false;
+        
+        return true;
     }
 
     public boolean checkLivrosSizeLimit(){

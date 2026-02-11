@@ -12,7 +12,7 @@ public class Main {
         
         biblioteca1.adicionarLivro(livro1);
         biblioteca1.adicionarLivro(livro2);
-        biblioteca1.adicionarLivro(livro3);
+        System.out.println(biblioteca1.adicionarLivro(livro3));
         
         biblioteca1.listarLivros();
         
