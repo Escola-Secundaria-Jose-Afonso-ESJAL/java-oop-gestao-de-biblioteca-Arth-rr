@@ -22,4 +22,11 @@ class Livro {
     public int getAno() {
         return ano;
     }
+    
+    @Override
+    public String toString(){
+        return "\nTitulo: " + "'" + this.titulo + "'" + 
+                "\nAutor: " + "'" + this.autor + "'" + 
+                "\nAno de publicação: " + this.ano;
+    }
 }

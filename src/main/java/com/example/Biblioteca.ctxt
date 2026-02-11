@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Biblioteca
+comment1.params=
+comment1.target=Biblioteca()
+comment2.params=livro
+comment2.target=boolean\ adicionarLivro(Livro)
+comment3.params=
+comment3.target=boolean\ checkLivrosSizeLimit()
+comment4.params=livroTemp\ titulo
+comment4.target=boolean\ matchtTitulosLivros(Livro,\ java.lang.String)
+comment5.params=titulo
+comment5.target=boolean\ removerLivro(java.lang.String)
+comment6.params=
+comment6.target=void\ listarLivros()
+numComments=7
